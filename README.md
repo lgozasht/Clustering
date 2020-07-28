@@ -19,7 +19,7 @@ Install minimap2 from https://github.com/lh3/minimap2
 Make sure that cluster_sequences.py and sequenceAnalyzer.py are in the same directory.
 
 ```
-python3 cluster_sequences.py [options] -fasta [Path to input fasta file] -algorithm [algorithm] 
+python3 cluster_sequences.py [options] -fasta [Path to input fasta file] -algorithm [either "BLAST" or "minimap2"] 
 ```
 
 ### Input
